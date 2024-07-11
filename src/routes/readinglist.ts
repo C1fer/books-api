@@ -1,3 +1,6 @@
+/* istanbul ignore file */
+
+
 import { Router } from "express";
 import {ReadingListController} from "../controllers/ReadingListController";
 

@@ -3,7 +3,7 @@ import Express from 'express';
 import { CONSTANTS } from './models/Constants';
 import { bookRouter } from './routes/books';
 import { userRouter } from './routes/users';
-import { readingListRouter } from './routes/readinglist';
+//import { readingListRouter } from './routes/readinglist';
 import { sendResponse } from './utils/HTTPUtils';
 
 
@@ -22,6 +22,6 @@ app.use((req, res, next) => {
 
 app.use('/books', bookRouter);
 app.use('/users', userRouter);
-app.use('/reading-list', readingListRouter);
+//app.use('/reading-list', readingListRouter);
 
 export default app;

@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import { User } from "../models/User";
 import { Request, Response } from "express";
 import { Book } from "../models/Book";

@@ -1,6 +1,6 @@
 {
     "type": "sqlite",
-    "database": "database.sqlite",
+    "database": "testdb.sqlite",
     "synchronize": true,
     "logging": false,
     "entities": ["src/models/**/*.ts"]
